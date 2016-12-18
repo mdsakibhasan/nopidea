@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*contact_rule
+***********************************************************************************/
+
+#cont {
+	width:740px;
+	margin:0px auto;
+}
+#cont_text {
+	padding:42px 0px 32px;
+}
+#cont_inbox {
+	padding-bottom:32px;
+}
+#cont_add {
+	border-left: #F90033 solid 4px;
+	padding:0px 0px 15px 10px;
+	height:60px;
+}
+#cont_tel li{
+	float:left;
+	font-size:16px;
+	color:#F90033;
+	font-weight:bold;
+}
+#tel {
+	padding-right:25px;
+}
+#cont_title {
+	background:url(../images/contact/ct_bg.jpg) no-repeat center;
+	background-position:left top;
+	height:41px;
+	font-size:18px;
+	color:#FFFFFF;
+	line-height: 1;
+	padding:8px 0px 0px 15px;
+}
+#cont_at {
+	width:740px;
+	height:11px;
+	padding-bottom:10px;
+	text-align:right;
+}
+#cont_tbl {
+	border-top:solid 1px #B1B1B1;
+	border-left:solid 1px #B1B1B1;
+}
+#cont_tbl th,#cont_tbl td {
+	border-right:solid 1px #B1B1B1;
+	border-bottom:solid 1px #B1B1B1;
+	vertical-align:middle;
+	padding: 10px 0px 10px 5px;
+}
+#cont_tbl th {
+	width:182px;
+	height: auto;
+	background-color:#F9E3E8;
+	text-align:center;
+	font-size:12px;
+	font-weight:normal;
+}
+#cont_tbl th span {
+	color:#F90033;
+	font-weight:bold;
+}
+#cont_tbl td {
+	width:551px;
+	height: auto;
+	background-color:#FFFFFF;
+	text-align:left;
+}
+#form_btn {
+	width:531px;
+	padding:40px 0px 40px 209px;;
+}
+#form_btn li{
+	float:left;
+	width: 149px;
+	height: 33px;
+	padding: 0px 12px;
+}
+input:focus {
+	outline-offset: 0px!important;
+}
+#thank_cont {
+	text-align: center;
+	padding: 50px 0px 100px;
+}
+p#thanks_txt {
+	color: #C00;
+}

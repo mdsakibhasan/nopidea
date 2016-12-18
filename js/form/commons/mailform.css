@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+
+form#mailform {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+form#mailform label {
+	cursor: pointer;
+	display: block;
+	padding: 5px 5px;
+	margin-bottom: 1px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+label.label_true {
+	background-color: #FEF1F1;
+	text-decoration: none;
+}
+label.label_false {
+	background-color: none;
+	border: none;
+	text-decoration: none;
+	background-image: none;
+}
+div#mailfrom_hidden_object {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+div#mailfrom_hidden_object input {
+	margin: 10px;
+}
+div#mfp_closed {
+	display: none;
+}
+div.mfp_disp {
+	display: none;
+}
+div#input_time_disp {
+	padding: 10px;
+}
+div#expires_time_disp {
+	padding: 10px;
+	text-align: center;
+}
+div#expires_time_disp strong {
+	font-size: 18px;
+	color: #CC0000;
+}
+div#limit_disp {
+	padding: 10px;
+	text-align: center;
+}
+div#limit_disp strong {
+	font-size: 24px;
+	color: #CC0000;
+}
+img.must {
+	width: 30px;
+	height: 16px;
+	float: left;
+	margin: 0px 0px 0px 5px;
+}
+div.mfp_err {
+	text-align: left;
+	margin: 5px 0px 0px 0px;
+	padding: 3px 0px 5px 17px;
+	color: #990000;
+	font-size: 12px;
+	line-height: normal;
+	display: none;
+	background-image: url(../images/mfp_error.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+input.mfp {
+	padding: 2px;
+}
+textarea.mfp {
+	padding: 5px;
+}
+div#mfp_buttons {
+	padding: 0px;
+	text-align: center;
+}
+div#mfp_buttons ul {
+	width: 360px;
+	height: 60px;
+	overflow: hidden;
+	margin: 0px auto 0px auto;
+}
+div#mfp_buttons ul li {
+	width: 180px;
+	height: 60px;
+	overflow: hidden;
+	float: left;
+}
+input#button_mfp_goconfirm {
+	width: 149px;
+	height: 33px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	background-image: url(../../../images/contact/bottom02.jpg);
+	background-repeat: no-repeat;
+	/*text-indent: -5000px;*/
+	border: none;
+	border-style: none;
+	cursor: pointer;
+}
+input#button_mfp_reset {
+	width: 149px;
+	height: 33px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	background-image: url(../../../images/contact/bottom01.jpg);
+	background-repeat: no-repeat;
+	border: none;
+	border-style: none;
+	cursor: pointer;
+	/*text-indent: -5000px;*/
+}
+.reset_over {
+	background-image: url(../images/mfp_reset_over.html);
+}
+.reset_out {
+	background-image: url(../images/mfp_reset.html);
+}
+.confirm_over {
+	background-image: url(../images/mfp_confirm_over.html);
+}
+.confirm_out {
+	background-image: url(../images/mfp_confirm.html);
+}
+table.mailform {
+	width: 100%;
+	padding: 10px;
+}
+table.mailform tr th {
+	padding: 7px 0px 7px 0px;
+	border-bottom: solid 1px #CCCCCC;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: right;
+	width: 160px;
+}
+table.mailform tr th span {
+	font-size: 10px;
+	color: #999999;
+	display: block;
+}
+table.mailform tr td {
+	padding: 7px 10px 7px 10px;
+	border-bottom: solid 1px #CCCCCC;
+	font-size: 12px;
+}
+table.mailform tr td ul li,table.mailform tr td ul,table.mailform tr td ol,table.mailform tr td ol li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+table.mailform tr td ul li {
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+table.mailform tr td p,table.mailform tr td div,table.mailform tr td span {
+	clear: both;
+}
+ul.confirm_layer {
+	width: 720px;
+	padding: 0px;
+	margin: 0px;
+}
+ul.confirm_layer li {
+	width: 720px;
+	list-style: none;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+li.confirm_middle {
+	background-image: url(../images/mfp_table_backgroundb71e.png?wide);
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mfp_table_background.html', sizingMethod='scale');
+}
+li.confirm_top {
+	height: 33px;
+	background-image: url(../images/mfp_table_topb71e.png?wide);
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mfp_table_top.html', sizingMethod='scale');
+}
+li.confirm_bottom {
+	height: 33px;
+	background-image: url(../images/mfp_table_bottomb71e.png?wide);
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mfp_table_bottom.html', sizingMethod='scale');
+}
+div#disabled_submit {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+div#disabled_submit input {
+	margin: 10px;
+}
+table.infield {
+	width: 660px;
+	margin: 0px auto 0px auto;
+}
+table.infield tr th {
+	padding: 5px;
+	margin: 0px;
+	text-align: right;
+	font-size: 12px;
+	width: 150px;
+	border-bottom: solid 1px #CCCCCC;
+	color: #232323;
+	vertical-align: middle;
+}
+table.infield tr td {
+	padding: 5px;
+	border-bottom: solid 1px #CCCCCC;
+}
+table.infield tr td p {
+	text-align: left;
+	font-size: 12px;
+	line-height: 1.5em;
+	border-left: solid 2px #CCCCCC;
+	padding: 5px 0px 5px 10px;
+	margin: 0px;
+}
+.mfp_color {
+	background-color: #FFFFFF;
+}
+div#confirmWindow {
+	filter: alpha(opacity=30);
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+	z-index: 1;
+	position: fixed!important;
+	position/**/:  absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	background-color: #000000;
+	font-size: 12px;
+	text-align: center;
+	_top: expression(
+		document.documentElement && document.documentElement.scrollTop  || 
+		document.body && body.scrollTop  || 0
+		+ 0 + 'px'
+	);
+}
+div#confirmBody {
+	width: 1px;
+	visibility: hidden;
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	margin: 0px auto 0px auto;
+}
+div#confirmBody div.mfp_title {
+	color: #FFFFFF;
+	margin: 0px auto 0px auto;
+	width: 360px;
+	height: 33px;
+	padding-top: 10px;
+}
+div.buttons {
+	margin: 0px auto 0px auto;
+	border: none;
+	padding-bottom: 40px;
+}
+div.buttons input {
+	border: none;
+}
+div#twex {
+	margin: 0px;
+	overflow: hidden;
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+	background-color: #000000;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.60;
+	-khtml-opacity: 0.60;
+	opacity: 0.60;
+}
+img#loading_proccess_image {
+	position: absolute;
+	z-index: 1000;
+}
+input,textarea {
+	border: solid #ABADB3 1px;
+}

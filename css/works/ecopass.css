@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*ecopass_rule
+***********************************************************************************/
+
+#eco_cont {
+	width:900px;
+	height:auto;
+	padding:42px 0px 45px;
+}
+#eco_text {
+	border-left: #F90033 solid 4px;
+	padding-left:10px;
+	height:115px;
+}
+#eco_text p {
+	width:885px;
+	height:75px;
+	font-size:14px;
+}
+#eco_bottom {
+	width:900px;
+	height:54px;
+	text-align:center;
+	padding:40px 0px 16px;
+}
+eco_inbox {
+	width:900px;
+	overflow:hidden;
+}
+#eco_cont dl {
+	float:left;
+}
+#eco_dl01 {
+	width:430px;
+	padding-right:16px;
+}
+#eco_dl02 {
+	width:200px;
+	padding-right:17px;
+}
+#eco_dl03 {
+	width:237px;
+}
+#eco_dl03 dd{
+	border-bottom:dotted 1px #333;
+}
+#eco_dd01 {
+	border-top:dotted 1px #333;
+}

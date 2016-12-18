@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*taikenbus_rule
+***********************************************************************************/
+
+#bus_cont {
+	width:900px;
+	height:auto;
+	padding:42px 0px 45px;
+}
+#bus_text {
+	border-left: #F90033 solid 4px;
+	padding-left:10px;
+	height:140px;
+}
+#bus_text p {
+	width:885px;
+	height:75px;
+	font-size:14px;
+}
+#bus_buttom {
+	width:900px;
+	height:54px;
+	text-align:center;
+	padding:40px 0px 16px;
+}
+bus_inbox {
+	width:900px;
+	height:639px;
+	overflow:hidden;
+}
+#bus_cont dl {
+	float:left;
+	height:603px;
+}
+#bus_dl01 {
+	width:175px;
+	padding:3px 20px 0px 0px;
+}
+#bus_dl02 {
+	width:277px;
+	padding-right:20px;
+}
+#bus_dl03 {
+	width:407px;
+	padding-top:3px;
+	text-align:right;
+}
